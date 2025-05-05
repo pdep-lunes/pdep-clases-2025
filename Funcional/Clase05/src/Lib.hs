@@ -55,7 +55,7 @@ fibonacci unNumero = fibonacci (unNumero - 1) + fibonacci (unNumero - 2)
 -- Patrones de listas
 -- []               - Matchea con la lista vacía
 -- [x]              - Matchea con una lista que tiene un sólo elemento
--- [x, y]           - Matchea con una lista que tiene un sólo dos elementos
+-- [x, y]           - Matchea con una lista que tiene sólo dos elementos
 -- (cabeza : cola)  - Matchea con una lista de N (>= 1) elementos, y la descompone en cabeza y cola
 
 cabeza :: [a] -> a
