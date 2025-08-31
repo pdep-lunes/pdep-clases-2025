@@ -68,11 +68,14 @@ object crustaceoCascarudo{
 
   method cobrarCangreburger(personaje){
     donCangrejo.llevarseComision(self.precioFinal(personaje))
-    empleado.bonusPorVeuertnder(self.precioFinal(personaje))
     personaje.comerCangreburger()
   }
   method precioFinal(personaje){
     return  precioCangreburger + personaje.propina()
+  }
+
+  method empleado(nuevoEmpleado){
+    empleado = nuevoEmpleado
   }
 }
 
