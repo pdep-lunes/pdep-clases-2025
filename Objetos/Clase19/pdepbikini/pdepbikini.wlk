@@ -47,9 +47,7 @@ object donCangrejo{
   var dineroGastadoEnPerlita = 500000
 
   method llevarseComision(precio){
-    const mitadDePrecio = precio.div(2)
-    dinero += mitadDePrecio
-    dineroGastadoEnPerlita += mitadDePrecio
+    //COMPLETAR
   }
 
 
